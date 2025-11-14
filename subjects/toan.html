@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toán Học - EduSphere</title>
+    <link rel="stylesheet" href="../assets/css/variables.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-header></custom-header>
+    
+    <main class="container mx-auto px-4 py-8">
+        <div class="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <div class="flex items-center space-x-4 mb-6">
+                <i data-feather="divide-square" class="text-green-500 w-8 h-8"></i>
+                <h1 class="text-4xl font-bold text-indigo-700">Toán Học</h1>
+            </div>
+            <p class="text-xl text-gray-600 mb-8">Rèn luyện tư duy logic và giải quyết vấn đề</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-green-50 p-6 rounded-xl border border-green-200">
+                    <h3 class="text-xl font-semibold mb-4 text-green-800">📊 Nội dung học</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>Đại số và Giải tích</li>
+                        <li>Hình học</li>
+                        <li>Xác suất Thống kê</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-blue-50 p-6 rounded-xl border border-blue-200">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-800">🎯 Bài học mới</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>Hàm số và đồ thị</li>
+                        <li>Phương trình lượng giác</li>
+                        <li>Hình học không gian</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="../index.html" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors inline-flex items-center space-x-2">
+                    <i data-feather="arrow-left" class="w-4 h-4"></i>
+                    <span>Quay lại trang chủ</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="../components/header.js"></script>
+    <script src="../components/footer.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            feather.replace();
+        });
+    </script>
+</body>
+</html>

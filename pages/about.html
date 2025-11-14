@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu - EduSphere</title>
+    <link rel="stylesheet" href="../assets/css/variables.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-header></custom-header>
+    
+    <main class="container mx-auto px-4 py-8">
+        <div class="bg-white rounded-2xl shadow-lg p-8 max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold text-indigo-700 mb-6">Giới thiệu EduSphere</h1>
+            
+            <div class="prose prose-lg max-w-none">
+                <p class="text-gray-600 text-xl mb-6">
+                    EduSphere là nền tảng học tập thông minh, cung cấp đầy đủ các môn học từ cấp phổ thông.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
+                    <div class="bg-blue-50 p-6 rounded-xl">
+                        <i data-feather="target" class="text-blue-500 w-8 h-8 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-3">Sứ mệnh</h3>
+                        <p class="text-gray-700">Mang đến trải nghiệm học tập tốt nhất cho học sinh Việt Nam</p>
+                    </div>
+                    
+                    <div class="bg-green-50 p-6 rounded-xl">
+                        <i data-feather="eye" class="text-green-500 w-8 h-8 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-3">Tầm nhìn</h3>
+                        <p class="text-gray-700">Trở thành nền tảng giáo dục trực tuyến hàng đầu Việt Nam</p>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-8">
+                    <a href="../index.html" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors inline-flex items-center space-x-2">
+                        <i data-feather="home" class="w-4 h-4"></i>
+                        <span>Về trang chủ</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="../components/header.js"></script>
+    <script src="../components/footer.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            feather.replace();
+        });
+    </script>
+</body>
+</html>

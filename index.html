@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduSphere - Trang chủ</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-gray-50">
+    <custom-header></custom-header>
+    
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12 text-center">
+            <h1 class="text-4xl font-bold mb-6 text-indigo-700">Chào mừng đến với EduSphere</h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Nền tảng học tập thông minh cho tất cả các môn học từ cấp phổ thông. Học mọi lúc, mọi nơi với nội dung chất lượng.
+            </p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="subjects/ngu-van.html" class="subject-card bg-gradient-to-br from-blue-50 to-blue-100">
+                <i data-feather="book" class="text-blue-500"></i>
+                <h3>Ngữ Văn</h3>
+                <p>Khám phá thế giới văn chương và ngôn ngữ</p>
+            </a>
+            
+            <a href="subjects/toan.html" class="subject-card bg-gradient-to-br from-green-50 to-green-100">
+                <i data-feather="divide-square" class="text-green-500"></i>
+                <h3>Toán Học</h3>
+                <p>Rèn luyện tư duy logic và giải quyết vấn đề</p>
+            </a>
+            
+            <a href="subjects/tieng-anh.html" class="subject-card bg-gradient-to-br from-yellow-50 to-yellow-100">
+                <i data-feather="globe" class="text-yellow-500"></i>
+                <h3>Tiếng Anh</h3>
+                <p>Mở rộng cánh cửa giao tiếp toàn cầu</p>
+            </a>
+            
+            <a href="subjects/lich-su.html" class="subject-card bg-gradient-to-br from-red-50 to-red-100">
+                <i data-feather="clock" class="text-red-500"></i>
+                <h3>Lịch Sử</h3>
+                <p>Hiểu về quá khứ để xây dựng tương lai</p>
+            </a>
+            
+            <a href="subjects/dia-li.html" class="subject-card bg-gradient-to-br from-purple-50 to-purple-100">
+                <i data-feather="map" class="text-purple-500"></i>
+                <h3>Địa Lý</h3>
+                <p>Khám phá thế giới tự nhiên và xã hội</p>
+            </a>
+            
+            <a href="subjects/gdktpl.html" class="subject-card bg-gradient-to-br from-indigo-50 to-indigo-100">
+                <i data-feather="dollar-sign" class="text-indigo-500"></i>
+                <h3>GD Kinh Tế - Pháp Luật</h3>
+                <p>Hiểu biết về kinh tế và pháp luật cơ bản</p>
+            </a>
+            
+            <a href="subjects/tin-hoc.html" class="subject-card bg-gradient-to-br from-gray-50 to-gray-100">
+                <i data-feather="code" class="text-gray-500"></i>
+                <h3>Tin Học</h3>
+                <p>Làm chủ công nghệ trong thời đại số</p>
+            </a>
+            
+            <a href="subjects/cong-nghe.html" class="subject-card bg-gradient-to-br from-teal-50 to-teal-100">
+                <i data-feather="tool" class="text-teal-500"></i>
+                <h3>Công Nghệ</h3>
+                <p>Áp dụng khoa học vào đời sống</p>
+            </a>
+            
+            <a href="subjects/quoc-phong.html" class="subject-card bg-gradient-to-br from-orange-50 to-orange-100">
+                <i data-feather="shield" class="text-orange-500"></i>
+                <h3>Quốc Phòng</h3>
+                <p>Kiến thức an ninh quốc phòng cơ bản</p>
+            </a>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            feather.replace();
+        });
+    </script>
+</body>
+</html>
