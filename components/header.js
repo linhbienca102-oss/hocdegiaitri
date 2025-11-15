@@ -9,7 +9,7 @@ class CustomHeader extends HTMLElement {
                             <span class="text-xl font-bold text-indigo-700">EduSphere</span>
                         </div>
                         <div class="flex items-center space-x-6">
-                            <a href="index.html" class="text-gray-600 hover:text-indigo-600 transition-colors font-medium">Trang chủ</a>
+                            <a href="/index.html" class="text-gray-600 hover:text-indigo-600 transition-colors font-medium">Trang chủ</a>
                             <a href="pages/about.html" class="text-gray-600 hover:text-indigo-600 transition-colors font-medium">Giới thiệu</a>
                             <a href="pages/contact.html" class="text-gray-600 hover:text-indigo-600 transition-colors font-medium">Liên hệ</a>
                         </div>
@@ -19,5 +19,6 @@ class CustomHeader extends HTMLElement {
         `;
     }
 }
+
 
 customElements.define('custom-header', CustomHeader);
