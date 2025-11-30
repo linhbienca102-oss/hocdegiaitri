@@ -1,6 +1,6 @@
 // EduSphere App JavaScript
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('EduSphere đã sẵn sàng!');
+    console.log('Học để giải trí đã sẵn sàng!');
     
     // Thêm hiệu ứng loading cho cards
     const cards = document.querySelectorAll('.subject-card');
@@ -17,4 +17,5 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         console.warn('Feather Icons chưa được load');
     }
+
 });
